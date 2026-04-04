@@ -6,7 +6,7 @@
     "description": "حفظ المقاطع، تخطي المشاهدة، ورفع من الاستديو.",
     "icon": "👻",
     "category": "سوشيال ميديا",
-    "downloadUrl": "itms-services://?action=download-manifest&url=YOUR_PLIST_URL",
+    "downloadUrl": "itms-services://?action=download-manifest&url=https://rakan-store.vercel.app/manifests/snap.plist",
     "status": "working"
   },
   {
@@ -16,7 +16,7 @@
     "description": "نسخة معدلة بمميزات حصرية وثبات عالي في الأداء.",
     "icon": "🔫",
     "category": "ألعاب",
-    "downloadUrl": "https://rakan.link/pubg",
+    "downloadUrl": "itms-services://?action=download-manifest&url=https://rakan-store.vercel.app/manifests/pubg.plist",
     "status": "working"
   },
   {
@@ -26,37 +26,7 @@
     "description": "بدون إعلانات، وتشغيل الفيديوهات في الخلفية وتحميل مباشر.",
     "icon": "📺",
     "category": "أدوات",
-    "downloadUrl": "https://rakan.link/yt",
-    "status": "working"
-  },
-  {
-    "id": 4,
-    "name": "TikTok++",
-    "version": "v33.0",
-    "description": "حفظ الفيديوهات بدون علامة مائية وتغيير الموقع.",
-    "icon": "🎵",
-    "category": "سوشيال ميديا",
-    "downloadUrl": "#",
-    "status": "revoked"
-  },
-  {
-    "id": 5,
-    "name": "Ludo Star",
-    "version": "v1.2",
-    "description": "تطويرات خاصة للعبة اللودو الشهيرة.",
-    "icon": "🎲",
-    "category": "ألعاب",
-    "downloadUrl": "#",
-    "status": "working"
-  },
-  {
-    "id": 6,
-    "name": "Video Star",
-    "version": "v10.1",
-    "description": "افضل تطبيق مونتاج مع كامل المؤثرات مفتوحة.",
-    "icon": "⭐",
-    "category": "أدوات",
-    "downloadUrl": "#",
+    "downloadUrl": "itms-services://?action=download-manifest&url=https://rakan-store.vercel.app/manifests/yt.plist",
     "status": "working"
   }
 ]

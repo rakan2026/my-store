@@ -97,9 +97,21 @@ export default function Home() {
               </div>
               <p className="text-gray-500 text-sm leading-relaxed mb-8 h-12 overflow-hidden">{app.description}</p><div className="flex items-center justify-between pt-4 border-t border-gray-50">
                 <span className="text-blue-600 text-[10px] font-black bg-blue-50 px-3 py-1 rounded-full">{app.category}</span>
-                <a href={app.downloadUrl} className="bg-[#1d1d1f] text-white px-8 py-3 rounded-2xl font-bold text-sm hover:bg-blue-600 transition-all shadow-md active:scale-95">
-                  تحميل
-                </a>
+                <button 
+  onClick={() => {
+    if(app.status === 'working') {
+      alert('سيتم بدء التثبيت، اضغط "تثبيت" في النافذة القادمة');
+      window.location.href = app.downloadUrl;
+    }
+  }}
+  className={`px-8 py-3 rounded-2xl font-bold text-sm transition-all shadow-md active:scale-95 ${
+    app.status === 'working' 
+    ? 'bg-blue-600 text-white hover:bg-[#1d1d1f]' 
+    : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+  }`}
+>
+  {app.status === 'working' ? 'تثبيت الآن' : 'غير متوفر'}
+</button>
               </div>
             </div>
           ))}
