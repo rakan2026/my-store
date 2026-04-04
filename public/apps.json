@@ -20,13 +20,13 @@
     "status": "working"
   },
   {
-    "id": 3,
-    "name": "YouTube Pro",
-    "version": "v19.0",
-    "description": "بدون إعلانات، وتشغيل الفيديوهات في الخلفية وتحميل مباشر.",
-    "icon": "📺",
-    "category": "أدوات",
-    "downloadUrl": "itms-services://?action=download-manifest&url=https://rakan-store.vercel.app/manifests/yt.plist",
-    "status": "working"
-  }
+  "id": 3,
+  "name": "YouTube Pro",
+  "version": "v19.0",
+  "description": "يوتيوب بدون إعلانات مع ميزة التحميل.",
+  "icon": "📺",
+  "category": "أدوات",
+  "downloadUrl": "itms-services://?action=download-manifest&url=https://ipa.isigncloud.com/manifest/656f4d.plist",
+  "status": "working"
+}
 ]
