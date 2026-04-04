@@ -48,13 +48,27 @@ export default function Home() {
           </div>
         </div>
       </header>
-
+<div className="bg-blue-600 text-white py-2 overflow-hidden whitespace-nowrap">
+  <div className="animate-marquee inline-block px-4 font-bold text-sm">
+    🔥 تم تحديث شهادة سناب شات بلس.. متاح الآن للتحميل مجاناً! | 📢 تابعونا على الواتساب لجديد الشهادات | ✅ جميع التطبيقات تعمل بكفاءة
+  </div>
+</div>
       {/* Hero */}
       <section className="max-w-6xl mx-auto px-6 pt-16 pb-8 text-center">
         <h2 className="text-4xl md:text-6xl font-black mb-4">متجرك المفضل</h2>
         <p className="text-gray-500 font-medium">أفضل تطبيقات البلس والألعاب في مكان واحد</p>
       </section>
-
+<div className="max-w-6xl mx-auto px-6 mb-8">
+  <input 
+    type="text" 
+    placeholder="ابحث عن تطبيقك المفضل..." 
+    className="w-full p-4 rounded-2xl border border-gray-100 shadow-sm focus:ring-2 focus:ring-blue-600 outline-none transition-all font-bold"
+    onChange={(e) => {
+      const search = e.target.value.toLowerCase();
+      setFilteredApps(apps.filter(app => app.name.toLowerCase().includes(search)));
+    }}
+  />
+</div>
       {/* الأقسام */}
       <div className="max-w-6xl mx-auto px-6 mb-12 flex gap-3 overflow-x-auto pb-4 no-scrollbar">
         {['الكل', 'سوشيال ميديا', 'ألعاب', 'أدوات'].map((cat) => (
@@ -76,8 +90,17 @@ export default function Home() {
       <main className="max-w-6xl mx-auto px-6 pb-24">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredApps.map((app) => (
-            <div key={app.id} className="bg-white rounded-[2.5rem] p-8 border border-gray-50 shadow-sm hover:shadow-xl transition-all duration-300">
-              <div className="flex items-center gap-5 mb-6">
+            <div key={app.id} className="relative bg-white rounded-[2.5rem] p-8 border border-gray-50 shadow-sm">
+  
+  {/* هنا تحط الأمر الثالث - تاق الترند */}
+  {app.id <= 2 && (
+    <div className="absolute -top-3 -right-3 bg-red-500 text-white text-[10px] font-black px-3 py-1 rounded-full shadow-lg z-10 animate-bounce">
+      HOT 🔥
+    </div>
+  )}
+
+  <div className="flex items-center gap-5 mb-6">
+    {/* كود الأيقونة والاسم اللي موجود عندك أصلاً... */}
                 <div className="w-16 h-16 bg-gray-50 rounded-2xl flex items-center justify-center text-4xl shadow-inner border border-gray-50">
                   {app.icon}
                 </div>
