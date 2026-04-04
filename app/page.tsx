@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-
+import Link from 'next/link';
 interface AppItem {
   id: number;
   name: string;
@@ -82,7 +82,11 @@ export default function Home() {
                   {app.icon}
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 leading-tight">{app.name}</h3>
+                  <Link href={`/app-details/${app.id}`}>
+  <h3 className="text-xl font-bold text-gray-900 leading-tight hover:text-blue-600 cursor-pointer transition-colors">
+    {app.name}
+  </h3>
+</Link>
                   <div className="flex items-center gap-2 mt-1">
                     <span className="text-xs font-mono text-gray-400">{app.version}</span>
                     {/* عرض حالة الشهادة */}
