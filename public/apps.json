@@ -1,29 +1,22 @@
 [
   {
     "id": 1,
-    "name": "Snapchat++",
-    "version": "v12.5.0",
-    "description": "حفظ السنابات، رفع من الاستديو، إخفاء المشاهدة، والعديد من المزايا.",
-    "icon": "👻",
+    "name": "Instagram++",
+    "version": "v321.0",
+    "description": "تحميل الصور والفيديوهات، إخفاء الظهور، والمزيد.",
+    "icon": "📸",
     "category": "سوشيال ميديا",
-    "downloadUrl": "https://rakan.link/snap"
+    "downloadUrl": "https://example.com/insta.ipa",
+    "status": "working"
   },
   {
     "id": 2,
-    "name": "PUBG Mobile",
-    "version": "v3.1.0",
-    "description": "نسخة معدلة بمميزات حصرية وثبات عالي في الأداء.",
-    "icon": "🔫",
-    "category": "ألعاب",
-    "downloadUrl": "https://rakan.link/pubg"
-  },
-  {
-    "id": 3,
-    "name": "YouTube Pro",
-    "version": "v19.0",
-    "description": "تشغيل في الخلفية، بدون إعلانات، وتحميل الفيديوهات مباشرة.",
-    "icon": "📺",
+    "name": "Spotify++",
+    "version": "v8.9.1",
+    "description": "تشغيل بدون إعلانات، جودة عالية، تخطي غير محدود.",
+    "icon": "🎵",
     "category": "أدوات",
-    "downloadUrl": "https://rakan.link/yt"
+    "downloadUrl": "https://example.com/spotify.ipa",
+    "status": "revoked"
   }
 ]
