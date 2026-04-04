@@ -1,22 +1,62 @@
 [
   {
     "id": 1,
-    "name": "Instagram++",
-    "version": "v321.0",
-    "description": "تحميل الصور والفيديوهات، إخفاء الظهور، والمزيد.",
-    "icon": "📸",
+    "name": "Snapchat Plus",
+    "version": "v12.0",
+    "description": "حفظ المقاطع، تخطي المشاهدة، ورفع من الاستديو.",
+    "icon": "👻",
     "category": "سوشيال ميديا",
-    "downloadUrl": "https://example.com/insta.ipa",
+    "downloadUrl": "itms-services://?action=download-manifest&url=YOUR_PLIST_URL",
     "status": "working"
   },
   {
     "id": 2,
-    "name": "Spotify++",
-    "version": "v8.9.1",
-    "description": "تشغيل بدون إعلانات، جودة عالية، تخطي غير محدود.",
-    "icon": "🎵",
+    "name": "PUBG Mobile",
+    "version": "v3.1.0",
+    "description": "نسخة معدلة بمميزات حصرية وثبات عالي في الأداء.",
+    "icon": "🔫",
+    "category": "ألعاب",
+    "downloadUrl": "https://rakan.link/pubg",
+    "status": "working"
+  },
+  {
+    "id": 3,
+    "name": "YouTube Pro",
+    "version": "v19.0",
+    "description": "بدون إعلانات، وتشغيل الفيديوهات في الخلفية وتحميل مباشر.",
+    "icon": "📺",
     "category": "أدوات",
-    "downloadUrl": "https://example.com/spotify.ipa",
+    "downloadUrl": "https://rakan.link/yt",
+    "status": "working"
+  },
+  {
+    "id": 4,
+    "name": "TikTok++",
+    "version": "v33.0",
+    "description": "حفظ الفيديوهات بدون علامة مائية وتغيير الموقع.",
+    "icon": "🎵",
+    "category": "سوشيال ميديا",
+    "downloadUrl": "#",
     "status": "revoked"
+  },
+  {
+    "id": 5,
+    "name": "Ludo Star",
+    "version": "v1.2",
+    "description": "تطويرات خاصة للعبة اللودو الشهيرة.",
+    "icon": "🎲",
+    "category": "ألعاب",
+    "downloadUrl": "#",
+    "status": "working"
+  },
+  {
+    "id": 6,
+    "name": "Video Star",
+    "version": "v10.1",
+    "description": "افضل تطبيق مونتاج مع كامل المؤثرات مفتوحة.",
+    "icon": "⭐",
+    "category": "أدوات",
+    "downloadUrl": "#",
+    "status": "working"
   }
 ]
