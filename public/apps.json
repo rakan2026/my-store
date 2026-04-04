@@ -23,10 +23,10 @@
   "id": 3,
   "name": "YouTube Pro",
   "version": "v19.0",
-  "description": "يوتيوب بدون إعلانات، تشغيل في الخلفية، وتحميل المقاطع مباشرة بجودة عالية.",
+  "description": "يوتيوب بدون إعلانات - نسخة مستقرة وتعمل حالياً.",
   "icon": "📺",
   "category": "أدوات",
-  "downloadUrl": "itms-services://?action=download-manifest&url=https://appdb.to/get/install-manifest/EE1502E5-011A-46DA-9C3B-70C3D045367C",
+  "downloadUrl": "itms-services://?action=download-manifest&url=https://ipa.isigncloud.com/manifest/656f4d.plist",
   "status": "working"
 }
 ]
