@@ -1,32 +1,46 @@
 [
   {
     "id": 1,
-    "name": "Snapchat Plus",
-    "version": "v12.0",
-    "description": "حفظ المقاطع، تخطي المشاهدة، ورفع من الاستديو.",
-    "icon": "👻",
-    "category": "سوشيال ميديا",
-    "downloadUrl": "itms-services://?action=download-manifest&url=https://rakan-store.vercel.app/manifests/snap.plist",
-    "status": "working"
+    "name": "YouTube Pro",
+    "version": "v19.0",
+    "description": "يوتيوب بدون إعلانات - نسخة راكان بلس الخاصة.",
+    "icon": "📺",
+    "category": "Plus",
+    "downloadUrl": "https://example.com/download/yt-pro",
+    "status": "working",
+    "isHot": true
   },
   {
     "id": 2,
+    "name": "Snapchat Plus",
+    "version": "v12.0",
+    "description": "حفظ المقاطع، تخطي المشاهدة، ورفع من الاستوديو.",
+    "icon": "👻",
+    "category": "Social",
+    "downloadUrl": "https://example.com/download/snap-plus",
+    "status": "working",
+    "isHot": true
+  },
+  {
+    "id": 3,
     "name": "PUBG Mobile",
     "version": "v3.1.0",
     "description": "نسخة معدلة بمميزات حصرية وثبات عالي في الأداء.",
     "icon": "🔫",
-    "category": "ألعاب",
-    "downloadUrl": "itms-services://?action=download-manifest&url=https://rakan-store.vercel.app/manifests/pubg.plist",
-    "status": "working"
+    "category": "Games",
+    "downloadUrl": "https://example.com/download/pubg",
+    "status": "revoked",
+    "isHot": false
   },
   {
-  "id": 3,
-  "name": "YouTube Pro",
-  "version": "v19.0",
-  "description": "يوتيوب بدون إعلانات - نسخة راكان بلس الخاصة.",
-  "icon": "📺",
-  "category": "أدوات",
-  "downloadUrl": "itms-services://?action=download-manifest&url=https://my-store-seven-neon.vercel.app/yt.plist",
-  "status": "working"
-}
+    "id": 4,
+    "name": "WhatsApp Gold",
+    "version": "v10.5",
+    "description": "واتساب بلس مع ميزة إخفاء الظهور وتحميل الحالات.",
+    "icon": "👑",
+    "category": "Social",
+    "downloadUrl": "https://example.com/download/wa-gold",
+    "status": "working",
+    "isHot": false
+  }
 ]
