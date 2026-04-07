@@ -6,7 +6,7 @@
     "description": "يوتيوب بدون إعلانات مع ميزة التشغيل في الخلفية وتحميل المقاطع.",
     "icon": "/icons/youtube.png",
     "category": "Plus",
-    "downloadUrl": "#",
+    "downloadUrl": "itms-services://?action=download-manifest&url=https://my-store-seven-neon.vercel.app/yt.plist",
     "status": "working",
     "isHot": true
   },
@@ -17,7 +17,7 @@
     "description": "حفظ السنابات، رفع من الاستوديو، وتخطي مشاهدة القصة.",
     "icon": "/icons/snapchat.png",
     "category": "Social",
-    "downloadUrl": "#",
+    "downloadUrl": "itms-services://?action=download-manifest&url=https://my-store-seven-neon.vercel.app/snap.plist",
     "status": "working",
     "isHot": true
   },
@@ -28,7 +28,7 @@
     "description": "إخفاء الظهور، قراءة الرسائل المحذوفة، وتحميل الحالات بدقة عالية.",
     "icon": "/icons/whatsapp.png",
     "category": "Social",
-    "downloadUrl": "#",
+    "downloadUrl": "itms-services://?action=download-manifest&url=https://my-store-seven-neon.vercel.app/wa.plist",
     "status": "working",
     "isHot": false
   },
@@ -39,7 +39,7 @@
     "description": "تغيير الموقع، رفع الصور من الاستوديو، وحفظ الصور بدون حقوق.",
     "icon": "/icons/jodel.png",
     "category": "Social",
-    "downloadUrl": "#",
+    "downloadUrl": "itms-services://?action=download-manifest&url=https://my-store-seven-neon.vercel.app/jodel.plist",
     "status": "working",
     "isHot": false
   },
@@ -50,7 +50,7 @@
     "description": "تحميل الصور والفيديوهات، مشاهدة الستوري بالخفاء، وتكبير الصور.",
     "icon": "/icons/instagram.png",
     "category": "Social",
-    "downloadUrl": "#",
+    "downloadUrl": "itms-services://?action=download-manifest&url=https://my-store-seven-neon.vercel.app/insta.plist",
     "status": "working",
     "isHot": false
   },
@@ -61,7 +61,7 @@
     "description": "حفظ الفيديوهات بدون علامة مائية، وزيادة عدد الحروف في الوصف.",
     "icon": "/icons/tiktok.png",
     "category": "Social",
-    "downloadUrl": "#",
+    "downloadUrl": "itms-services://?action=download-manifest&url=https://my-store-seven-neon.vercel.app/tiktok.plist",
     "status": "working",
     "isHot": true
   },
@@ -72,7 +72,7 @@
     "description": "تحميل الفيديوهات، إخفاء الإعلانات المزعجة، وتصفح بدون تتبع.",
     "icon": "/icons/twitter.png",
     "category": "Social",
-    "downloadUrl": "#",
+    "downloadUrl": "itms-services://?action=download-manifest&url=https://my-store-seven-neon.vercel.app/twitter.plist",
     "status": "working",
     "isHot": false
   },
@@ -83,7 +83,7 @@
     "description": "نسخة معدلة بمميزات حصرية وثبات عالي في الأداء لمتجر راكان.",
     "icon": "/icons/pubg.png",
     "category": "Games",
-    "downloadUrl": "#",
+    "downloadUrl": "itms-services://?action=download-manifest&url=https://my-store-seven-neon.vercel.app/pubg.plist",
     "status": "revoked",
     "isHot": false
   }
